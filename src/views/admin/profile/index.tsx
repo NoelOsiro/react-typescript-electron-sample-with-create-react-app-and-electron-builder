@@ -11,8 +11,8 @@ import Storage from './components/Storage';
 import Upload from './components/Upload';
 
 // Assets
-import banner from 'assets/img/auth/banner.png';
-import avatar from 'assets/img/avatars/avatar4.png';
+import banner from '../../../assets/img/auth/banner.png';
+import avatar from '../../../assets/img/avatars/avatar4.png';
 
 export default function Overview() {
 	return (
