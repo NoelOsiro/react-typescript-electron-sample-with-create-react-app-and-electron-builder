@@ -1,13 +1,15 @@
+
+
 // Chakra imports
 import { Avatar, Box, Flex, FormLabel, Icon, Select, SimpleGrid, useColorModeValue } from '@chakra-ui/react';
 // Assets
 import Usa from 'assets/img/dashboards/usa.png';
 // Custom components
-import MiniCalendar from 'components/calendar/MiniCalendar';
-import MiniStatistics from 'components/card/MiniStatistics';
-import IconBox from 'components/icons/IconBox';
+import MiniCalendar from '../../../components/calendar/MiniCalendar';
+import MiniStatistics from '../../../components/card/MiniStatistics';
+import IconBox from '../../../components/icons/IconBox';
 import { MdAddTask, MdAttachMoney, MdBarChart, MdFileCopy } from 'react-icons/md';
-import CheckTable from 'views/admin/rtl/components/CheckTable';
+import CheckTable from './components/CheckTable';
 import ComplexTable from './components/ComplexTable';
 import DailyTraffic from './components/DailyTraffic';
 import PieCard from './components/PieCard';

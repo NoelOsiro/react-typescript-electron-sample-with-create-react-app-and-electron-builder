@@ -1,4 +1,4 @@
-// Chakra imports
+
 import { Box, SimpleGrid } from '@chakra-ui/react';
 import DevelopmentTable from './components/DevelopmentTable';
 import CheckTable from './components/CheckTable';

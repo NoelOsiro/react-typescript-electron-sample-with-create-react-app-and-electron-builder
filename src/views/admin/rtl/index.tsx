@@ -1,3 +1,4 @@
+
 // Chakra imports
 import { Avatar, Box, Flex, FormLabel, Icon, Select, SimpleGrid, useColorModeValue } from '@chakra-ui/react';
 // Assets
@@ -8,12 +9,12 @@ import MiniStatistics from '../../../components/card/MiniStatistics';
 import IconBox from '../../../components/icons/IconBox';
 import React from 'react';
 import { MdAddTask, MdAttachMoney, MdBarChart, MdFileCopy } from 'react-icons/md';
-import CheckTable from './components/CheckTables';
+import CheckTable from './components/CheckTable';
 import ComplexTable from './components/ComplexTable';
 import DailyTraffic from './components/DailyTraffic';
 import PieCard from './components/PieCard';
 import Tasks from './components/Tasks';
-import TotalSpent from './components/TottalSpent';
+import TotalSpent from './components/TotalSpent';
 import WeeklyRevenue from './components/WeeklyRevenue';
 import tableDataCheck from './variables/tableDataCheck';
 import tableDataComplex from './variables/tableDataComplex';
